@@ -81,3 +81,4 @@ web应用不会被hang住，真正的任务执行是celery执行的。
 ## 参考链接：
 
 - [自动化运维工具之ansible](http://guoting.blog.51cto.com/8886857/1553446)
+- [配置管理工具之Ansible视频教程(共10课时)_](http://edu.51cto.com/index.php?do=lession&id=38985)
