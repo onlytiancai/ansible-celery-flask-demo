@@ -1,0 +1,13 @@
+- name: web service
+  remote_user: phpa 
+  hosts: localhost 
+  vars:
+    packages: nginx 
+  tasks:
+    - name: install nginx 
+      yum: name={{ packages }} state=present
+      tags: install
+    - name: service nginx start
+      service: name=nginx enabled=yes state=started
+      sudo: yes
+      tags: start
